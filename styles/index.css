@@ -1,6 +1,3 @@
-@import url('https://fonts.google.com/specimen/Figtree:wght@500;800&display=swap');
-
-
 *,
 *::after,
 *::before {
@@ -53,8 +50,8 @@ body {
 }
 
 .blog-card {
-    width: 384px;
-    height: 522px;
+    width: min(100% - 2rem, 384px);
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -86,7 +83,7 @@ body {
             font-weight: 800;
         }
 
-        > h2 {
+        > h1  {
             font-size: 1.72rem;
             font-weight: 800;
         } 
